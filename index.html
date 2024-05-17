@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <div class="h-screen w-full bg-[#3b5897] flex items-center justify-center">
+        <div class="h-3/4 pt-5 w-1/2 bg-[#f0f0f0] rounded-xl overflow-hidden">
+            <div class="w-full pb-5 flex border-b-2">
+                <div class="left w-1/2 flex justify-center items-center">
+                    <div class="circle h-48 w-48 bg-gradient-to-tr from-[#3b5897] via-[#6b7a8e] to-[#a9b4cb] rounded-full flex items-center justify-center">
+                        <div class="innerCircle h-44 w-44 bg-[#f0f0f0] flex items-center justify-center rounded-full">
+                            <h1 class="text-xl font-semibold">0/0</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="right flex justify-center gap-2 flex-col w-1/2">
+                    <h1 class="text-xl font-semibold pl-2">Create Task Here...</h1>
+                    <div class="input-holder flex items-center gap-2 pr-1">
+                        <input class="border-none outline-none bg-[#e9e9e9] rounded-full w-96 h-16 pl-4" placeholder="Write task head here..." type="text" name="" id="">
+                        <button class="bg-[#3b5897] rounded-full h-12 w-12 p-3 text-white font-semibold text-xl flex items-center justify-center">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="h-full w-full pt-16 pl-32">
+                <ul class="flex flex-wrap overflow-x-auto">
+                    <li class="flex w-1/2 items-center gap-2 mt-4">
+                        <div class="h-2 w-2 border border-solid border-gray-500 rounded-full"></div>
+                        <h1 class="text-xl text-[#4B6394] capitalize font-semibold">task 01</h1>
+                    </li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
